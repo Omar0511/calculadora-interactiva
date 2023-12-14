@@ -11,6 +11,14 @@ function App() {
           alt='Logo'
         />
       </div>
+
+      <div className='contenedor-calculadora'>
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+        <div className='fila'></div>
+      </div>
     </div>
   );
 }
