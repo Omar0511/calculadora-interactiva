@@ -2,7 +2,7 @@
 - Creación del proyecto:
     - `npx create-react-app nombreProyecto`
 - Inicio del server
- - `npm start`
+    - `npm start`
 
 ## Tecnologías
 - React.js
