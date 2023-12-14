@@ -1,5 +1,6 @@
 import './App.css';
 import Boton from './component/Boton';
+import Clear from './component/Clear';
 import Pantalla from './component/Pantalla';
 import logo from './img/dos.png';
 
@@ -45,7 +46,9 @@ function App() {
           <Boton>x</Boton>
         </div>
 
-        <div className='fila'></div>
+        <div className='fila'>
+          <Clear>Clear</Clear>
+        </div>
       </div>
     </div>
   );
