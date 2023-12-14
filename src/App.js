@@ -1,5 +1,6 @@
 import './App.css';
 import Boton from './component/Boton';
+import Pantalla from './component/Pantalla';
 import logo from './img/dos.png';
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       </div>
 
       <div className='contenedor-calculadora'>
+        <Pantalla />
+
         <div className='fila'>
           <Boton>1</Boton>
           <Boton>2</Boton>
