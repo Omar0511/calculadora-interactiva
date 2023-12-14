@@ -5,12 +5,19 @@ import Clear from './component/Clear';
 import Pantalla from './component/Pantalla';
 import logo from './img/dos.png';
 
+// Se instaló la librería: npm install mathjs
+import { evaluate } from 'mathjs';
+
 function App() {
 
   const [input, setInput] = useState('');
 
   const agregarInput = val => {
     setInput(input + val);
+  };
+
+  const calcularResultado = () => {
+
   };
 
   return (
@@ -52,7 +59,7 @@ function App() {
         <div className='fila'>
           <Boton manejarClic={agregarInput}>0</Boton>
           <Boton manejarClic={agregarInput}>.</Boton>
-          <Boton manejarClic={agregarInput}>=</Boton>
+          <Boton manejarClic={calcularResultado}>=</Boton>
           <Boton manejarClic={agregarInput}>x</Boton>
         </div>
 

@@ -8,6 +8,8 @@
 - React.js
 - HTML
 - CSS
+- Math.js
+    - `npm install mathjs`
 
 ### Herramientas
 - Visual Studio Code
