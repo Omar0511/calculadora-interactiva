@@ -17,6 +17,14 @@ function App() {
   };
 
   const calcularResultado = () => {
+    if (input)
+    {
+      setInput( evaluate(input) );
+    }
+    else
+    {
+      alert('Debes ingresar un número');
+    }
 
   };
 
